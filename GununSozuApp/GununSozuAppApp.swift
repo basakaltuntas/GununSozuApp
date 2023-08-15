@@ -12,7 +12,7 @@ struct GununSozuAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-            deneme yapıyoruz
+            deniyoruz.
         }
     }
 }
