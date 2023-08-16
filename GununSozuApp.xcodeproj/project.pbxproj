@@ -32,6 +32,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E91530A62A8BBC9600085AA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9C846D92A8BB32900F409B7 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E91530A72A8BBCFF00085AA7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E91530A82A8BBD2D00085AA7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E91530AC2A8BBDD300085AA7 /* Extension */,
+				E91530AB2A8BBDB400085AA7 /* BaseContent */,
+				E91530AA2A8BBD9100085AA7 /* Components */,
+				E9C846D52A8BB32800F409B7 /* GununSozuAppApp.swift */,
+				E91530A92A8BBD5000085AA7 /* BaseModels */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E91530A92A8BBD5000085AA7 /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModels;
+			sourceTree = "<group>";
+		};
+		E91530AA2A8BBD9100085AA7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E91530AB2A8BBDB400085AA7 /* BaseContent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseContent;
+			sourceTree = "<group>";
+		};
+		E91530AC2A8BBDD300085AA7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E91530AD2A8BBE1900085AA7 /* GenericModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GenericModels;
+			sourceTree = "<group>";
+		};
 		E9C846C92A8BB32800F409B7 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +113,11 @@
 		E9C846D42A8BB32800F409B7 /* GununSozuApp */ = {
 			isa = PBXGroup;
 			children = (
-				E9C846D52A8BB32800F409B7 /* GununSozuAppApp.swift */,
+				E91530AD2A8BBE1900085AA7 /* GenericModels */,
+				E91530A82A8BBD2D00085AA7 /* Core */,
+				E91530A72A8BBCFF00085AA7 /* Manager */,
+				E91530A62A8BBC9600085AA7 /* Supporting Files */,
 				E9C846D72A8BB32800F409B7 /* ContentView.swift */,
-				E9C846D92A8BB32900F409B7 /* Assets.xcassets */,
 				E9C846DB2A8BB32900F409B7 /* Preview Content */,
 			);
 			path = GununSozuApp;
