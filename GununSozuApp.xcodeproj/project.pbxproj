@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462D24252A8CA58B001917E0 /* religiousSayings.json in Resources */ = {isa = PBXBuildFile; fileRef = 462D24242A8CA58B001917E0 /* religiousSayings.json */; };
+		462D24272A8CA615001917E0 /* fridaySayings.json in Resources */ = {isa = PBXBuildFile; fileRef = 462D24262A8CA615001917E0 /* fridaySayings.json */; };
+		462D24292A8CA71E001917E0 /* positiveSayings.json in Resources */ = {isa = PBXBuildFile; fileRef = 462D24282A8CA71E001917E0 /* positiveSayings.json */; };
+		462D242B2A8CA7A1001917E0 /* motivationSayings.json in Resources */ = {isa = PBXBuildFile; fileRef = 462D242A2A8CA7A1001917E0 /* motivationSayings.json */; };
 		E9C846D62A8BB32800F409B7 /* GununSozuAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C846D52A8BB32800F409B7 /* GununSozuAppApp.swift */; };
 		E9C846D82A8BB32800F409B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C846D72A8BB32800F409B7 /* ContentView.swift */; };
 		E9C846DA2A8BB32900F409B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C846D92A8BB32900F409B7 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		462D24242A8CA58B001917E0 /* religiousSayings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = religiousSayings.json; path = ../../../../../Downloads/religiousSayings.json; sourceTree = "<group>"; };
+		462D24262A8CA615001917E0 /* fridaySayings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = fridaySayings.json; path = ../../../../../Downloads/fridaySayings.json; sourceTree = "<group>"; };
+		462D24282A8CA71E001917E0 /* positiveSayings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = positiveSayings.json; path = ../../../../../Downloads/positiveSayings.json; sourceTree = "<group>"; };
+		462D242A2A8CA7A1001917E0 /* motivationSayings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = motivationSayings.json; path = ../../../../../Downloads/motivationSayings.json; sourceTree = "<group>"; };
 		E9C846D22A8BB32800F409B7 /* GununSozuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GununSozuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C846D52A8BB32800F409B7 /* GununSozuAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GununSozuAppApp.swift; sourceTree = "<group>"; };
 		E9C846D72A8BB32800F409B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< Updated upstream
+=======
+		E91530A62A8BBC9600085AA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				462D24242A8CA58B001917E0 /* religiousSayings.json */,
+				462D242A2A8CA7A1001917E0 /* motivationSayings.json */,
+				462D24282A8CA71E001917E0 /* positiveSayings.json */,
+				462D24262A8CA615001917E0 /* fridaySayings.json */,
+				E9C846D92A8BB32900F409B7 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E91530A72A8BBCFF00085AA7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E91530A82A8BBD2D00085AA7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E91530AC2A8BBDD300085AA7 /* Extension */,
+				E91530AB2A8BBDB400085AA7 /* BaseContent */,
+				E91530AA2A8BBD9100085AA7 /* Components */,
+				E9C846D52A8BB32800F409B7 /* GununSozuAppApp.swift */,
+				E91530A92A8BBD5000085AA7 /* BaseModels */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E91530A92A8BBD5000085AA7 /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseModels;
+			sourceTree = "<group>";
+		};
+		E91530AA2A8BBD9100085AA7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E91530AB2A8BBDB400085AA7 /* BaseContent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseContent;
+			sourceTree = "<group>";
+		};
+		E91530AC2A8BBDD300085AA7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E91530AD2A8BBE1900085AA7 /* GenericModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GenericModels;
+			sourceTree = "<group>";
+		};
+>>>>>>> Stashed changes
 		E9C846C92A8BB32800F409B7 = {
 			isa = PBXGroup;
 			children = (
@@ -125,8 +202,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462D24292A8CA71E001917E0 /* positiveSayings.json in Resources */,
+				462D24252A8CA58B001917E0 /* religiousSayings.json in Resources */,
 				E9C846DD2A8BB32900F409B7 /* Preview Assets.xcassets in Resources */,
 				E9C846DA2A8BB32900F409B7 /* Assets.xcassets in Resources */,
+				462D242B2A8CA7A1001917E0 /* motivationSayings.json in Resources */,
+				462D24272A8CA615001917E0 /* fridaySayings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
